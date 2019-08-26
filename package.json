@@ -1,0 +1,19 @@
+{
+  "name": "virtualscroll",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmitCarmeli/virtualScroll.git"
+  },
+  "author": "Amit Carmeli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmitCarmeli/virtualScroll/issues"
+  },
+  "homepage": "https://github.com/AmitCarmeli/virtualScroll#readme"
+}
