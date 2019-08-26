@@ -2,9 +2,9 @@
   "name": "virtualscroll",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "js/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "http-server -p 9000"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/AmitCarmeli/virtualScroll/issues"
   },
-  "homepage": "https://github.com/AmitCarmeli/virtualScroll#readme"
+  "homepage": "https://github.com/AmitCarmeli/virtualScroll#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
 }

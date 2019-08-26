@@ -1,0 +1,10 @@
+body { margin: 0; padding: 0; position: relative; }
+
+#mainWrap { width: 100%; height: 100vh; position: relative; overflow: auto; }
+#virtualScroller { background: transparent; width: 100%; position: absolute; top: 0; left: 0; z-index: -1; }
+
+#list { position: relative; z-index: 1; margin: 0; padding: 0; }
+#list li { display: flex; align-items: center; width: 100%; }
+#list li .imgWrap { height: 100%; }
+#list li img { max-height: 100%; }
+#list li .listText { padding: 0 30px; width: 100%; text-align: left; }
